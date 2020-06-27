@@ -3,3 +3,20 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
+@import 'bootstrap';
+
+.container {
+  a {
+  color: #337ab7;
+  text-decoration: none;
+  }
+
+  a:hover {
+  color: darkblue;
+  text-decoration: underline;
+  }
+
+  h2 {
+    font-family: "Roboto Slab";
+  }
+}
